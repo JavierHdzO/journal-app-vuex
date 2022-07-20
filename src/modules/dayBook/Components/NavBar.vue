@@ -10,7 +10,7 @@
         </a>
 
         <div class="d-flex">
-            <button class="btn btn-outline-info"> 
+            <button class="btn btn-outline-info" title="sign out"> 
                 <i class="fa fa-sign-out-alt"> </i>
             </button>
         </div>
