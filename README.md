@@ -1,4 +1,4 @@
-# 07-journal-app-vuex
+# Journal-app-vuex
 
 ## Project setup
 ```
