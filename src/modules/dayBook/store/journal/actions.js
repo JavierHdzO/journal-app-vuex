@@ -51,7 +51,7 @@ export const createEntry = async ( { commit }, entry ) => {
     const { text, date, picture } = entry
     const rest = { text, date, picture }
 
-    const { data } =await journalAPI.post('/entries.json', rest)
+    const { data } = await journalAPI.post('/entries.json', rest)
 
     if(!data.name) return;
 

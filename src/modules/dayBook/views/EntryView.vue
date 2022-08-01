@@ -68,6 +68,7 @@ import getDayMonthYear from "./../helpers/getDayMonthYear";
 import uploadImage from '../helpers/uploadImage'
 
 export default {
+  name: 'EntryView',
   components: {
     Fab: defineAsyncComponent(() => import("../Components/FloatingAcBtn.vue")),
   },
@@ -153,7 +154,6 @@ export default {
     },
 
     async onDeleteEntry(){
-      
       const { isConfirmed  } = await Swal.fire({
         title:'Are you sure?',
         text: 'Once deleting will not recovery',
@@ -162,7 +162,7 @@ export default {
       })
       
       if( isConfirmed ){
-        new Swal({
+         Swal.fire({
           title: 'Waiting ...',
           allowOutsideClick: false
         })

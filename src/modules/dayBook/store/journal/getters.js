@@ -7,11 +7,13 @@
 
 
 export const getEntriesByTerm = ( state ) => ( term = '' ) => {
-
+    if( term.length === 0) return state.entries
     return term.length === 0
                 ? state.entries
                 : state.entries.filter( entry => entry.text.toLowerCase().includes(term.toLowerCase()))
 }
+
+
 
 export const getEntriesById = ( state  ) => ( id ) => {
 

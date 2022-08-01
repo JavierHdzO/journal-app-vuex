@@ -12,6 +12,7 @@
 import { defineAsyncComponent } from 'vue'
 
 export default {
+    name:'NoEntrySelected',
     components:{
         /* eslint-disable */
         // eslint-disable-next-line

@@ -5,8 +5,7 @@
     <button @click="getDayBook" class="btn btn-success me-2">Success</button>
     <button @click="getDayBook" class="btn btn-secondary me-2">Secondary</button>
     <button @click="getDayBook" class="btn btn-primary">Primary</button>
-
-    <router-link to="daybook">DayBook</router-link>
+    
   </div>
 </template>
 
