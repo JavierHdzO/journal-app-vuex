@@ -20,5 +20,11 @@ npm run build
 npm run lint
 ```
 
+### Add inside api folder a key.js file with your own firebase authentication's key
+
+```
+src/api/key.js
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
